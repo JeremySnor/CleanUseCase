@@ -9,7 +9,7 @@
 import Foundation
 import RxSwift
 
-public class UseCase<Input, Output> {
+open class UseCase<Input, Output> {
     
     private let executionSchedule: ImmediateSchedulerType
     private let resultSchedule: ImmediateSchedulerType
