@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CleanUseCase"
-  spec.version      = "0.0.2"
+  spec.version      = "0.1.0"
   spec.summary      = "Base UseCase implemntation for Clean Arch"
 
   # This description is used to generate tags and improve search results.

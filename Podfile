@@ -9,7 +9,8 @@ target 'CleanUseCase' do
   pod 'RxSwift', '~> 5'
 
   target 'CleanUseCaseTests' do
-    # Pods for testing
+    pod 'RxTest'
+    pod 'RxBlocking'
   end
 
 end
@@ -23,8 +24,10 @@ target 'CleanUseCaseExample' do
   pod 'RxSwift', '~> 5'
 
   target 'CleanUseCaseExampleTests' do
-    inherit! :search_paths
+    # inherit! :search_paths
     # Pods for testing
+    pod 'RxTest'
+    pod 'RxBlocking'
   end
 
 end
