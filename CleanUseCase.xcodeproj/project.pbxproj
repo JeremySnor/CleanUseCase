@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3F0959BF247455E80076F3D8 /* ObservableUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0959BE247455E80076F3D8 /* ObservableUseCase.swift */; };
-		3F0959C224745B540076F3D8 /* UseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0959C124745B540076F3D8 /* UseCaseProtocol.swift */; };
 		3F0959C424745BE10076F3D8 /* SingleUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0959C324745BE10076F3D8 /* SingleUseCase.swift */; };
 		3F0959C7247489440076F3D8 /* CleanUseCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F777F48246B62BB00244D4C /* CleanUseCase.framework */; };
 		3F0959C8247489440076F3D8 /* CleanUseCase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F777F48246B62BB00244D4C /* CleanUseCase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -22,6 +21,8 @@
 		3F0959E62474A3B70076F3D8 /* TestableUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0959E52474A3B70076F3D8 /* TestableUseCase.swift */; };
 		3F0959E82474B2790076F3D8 /* UCXCTestCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0959E72474B2790076F3D8 /* UCXCTestCaseProtocol.swift */; };
 		3F0959EC2474B36E0076F3D8 /* AuthTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0959EB2474B36E0076F3D8 /* AuthTestCase.swift */; };
+		3F1D3D752497BE280019AD33 /* UseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D3D742497BE280019AD33 /* UseCase.swift */; };
+		3F1D3D772497BFB90019AD33 /* Executable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D3D762497BFB90019AD33 /* Executable.swift */; };
 		3F777F52246B62BB00244D4C /* CleanUseCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F777F48246B62BB00244D4C /* CleanUseCase.framework */; };
 		3F777F57246B62BB00244D4C /* CleanUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F777F56246B62BB00244D4C /* CleanUseCaseTests.swift */; };
 		3F777F59246B62BB00244D4C /* CleanUseCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F777F4B246B62BB00244D4C /* CleanUseCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -32,7 +33,7 @@
 		3F777F72246B62DC00244D4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F777F71246B62DC00244D4C /* Assets.xcassets */; };
 		3F777F75246B62DC00244D4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F777F73246B62DC00244D4C /* LaunchScreen.storyboard */; };
 		3F777F80246B62DC00244D4C /* CleanUseCaseExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F777F7F246B62DC00244D4C /* CleanUseCaseExampleTests.swift */; };
-		3F777F8A246B63D100244D4C /* Executable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F777F89246B63D100244D4C /* Executable.swift */; };
+		3F777F8A246B63D100244D4C /* ReactiveExecutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F777F89246B63D100244D4C /* ReactiveExecutable.swift */; };
 		3F777FF5246CAC4100244D4C /* CleanUseCase.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3F777FF4246CAC4100244D4C /* CleanUseCase.podspec */; };
 		3F777FF7246CAC5400244D4C /* License in Resources */ = {isa = PBXBuildFile; fileRef = 3F777FF6246CAC5400244D4C /* License */; };
 		47EB46B38200BBC712CB2ABF /* Pods_CleanUseCaseExample_CleanUseCaseExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A61235756BDE2D919C58B8E /* Pods_CleanUseCaseExample_CleanUseCaseExampleTests.framework */; };
@@ -85,7 +86,6 @@
 		1E8B56976C41BC4654076BE2 /* Pods-CleanUseCaseExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanUseCaseExample.release.xcconfig"; path = "Target Support Files/Pods-CleanUseCaseExample/Pods-CleanUseCaseExample.release.xcconfig"; sourceTree = "<group>"; };
 		31BFBE7AABD7F13A0DC187BD /* Pods-CleanUseCaseExample-CleanUseCaseExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanUseCaseExample-CleanUseCaseExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-CleanUseCaseExample-CleanUseCaseExampleTests/Pods-CleanUseCaseExample-CleanUseCaseExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3F0959BE247455E80076F3D8 /* ObservableUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableUseCase.swift; sourceTree = "<group>"; };
-		3F0959C124745B540076F3D8 /* UseCaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseProtocol.swift; sourceTree = "<group>"; };
 		3F0959C324745BE10076F3D8 /* SingleUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleUseCase.swift; sourceTree = "<group>"; };
 		3F0959CD247492A30076F3D8 /* AuthRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepositoryProtocol.swift; sourceTree = "<group>"; };
 		3F0959D0247492D60076F3D8 /* MockAuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAuthRepository.swift; sourceTree = "<group>"; };
@@ -97,6 +97,8 @@
 		3F0959E52474A3B70076F3D8 /* TestableUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestableUseCase.swift; sourceTree = "<group>"; };
 		3F0959E72474B2790076F3D8 /* UCXCTestCaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCXCTestCaseProtocol.swift; sourceTree = "<group>"; };
 		3F0959EB2474B36E0076F3D8 /* AuthTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTestCase.swift; sourceTree = "<group>"; };
+		3F1D3D742497BE280019AD33 /* UseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCase.swift; sourceTree = "<group>"; };
+		3F1D3D762497BFB90019AD33 /* Executable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Executable.swift; sourceTree = "<group>"; };
 		3F777F48246B62BB00244D4C /* CleanUseCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CleanUseCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F777F4B246B62BB00244D4C /* CleanUseCase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CleanUseCase.h; sourceTree = "<group>"; };
 		3F777F4C246B62BB00244D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -114,7 +116,7 @@
 		3F777F7B246B62DC00244D4C /* CleanUseCaseExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanUseCaseExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F777F7F246B62DC00244D4C /* CleanUseCaseExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanUseCaseExampleTests.swift; sourceTree = "<group>"; };
 		3F777F81246B62DC00244D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F777F89246B63D100244D4C /* Executable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Executable.swift; sourceTree = "<group>"; };
+		3F777F89246B63D100244D4C /* ReactiveExecutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveExecutable.swift; sourceTree = "<group>"; };
 		3F777FF4246CAC4100244D4C /* CleanUseCase.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CleanUseCase.podspec; sourceTree = "<group>"; };
 		3F777FF6246CAC5400244D4C /* License */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
 		45A7846E590D5DC6182D240C /* Pods-CleanUseCaseExample-CleanUseCaseExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanUseCaseExample-CleanUseCaseExampleTests.release.xcconfig"; path = "Target Support Files/Pods-CleanUseCaseExample-CleanUseCaseExampleTests/Pods-CleanUseCaseExample-CleanUseCaseExampleTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -339,8 +341,9 @@
 		3F777F88246B630D00244D4C /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				3F777F89246B63D100244D4C /* Executable.swift */,
-				3F0959C124745B540076F3D8 /* UseCaseProtocol.swift */,
+				3F1D3D762497BFB90019AD33 /* Executable.swift */,
+				3F777F89246B63D100244D4C /* ReactiveExecutable.swift */,
+				3F1D3D742497BE280019AD33 /* UseCase.swift */,
 				3F0959BE247455E80076F3D8 /* ObservableUseCase.swift */,
 				3F0959C324745BE10076F3D8 /* SingleUseCase.swift */,
 			);
@@ -688,10 +691,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F1D3D752497BE280019AD33 /* UseCase.swift in Sources */,
 				3F0959BF247455E80076F3D8 /* ObservableUseCase.swift in Sources */,
 				3F0959C424745BE10076F3D8 /* SingleUseCase.swift in Sources */,
-				3F0959C224745B540076F3D8 /* UseCaseProtocol.swift in Sources */,
-				3F777F8A246B63D100244D4C /* Executable.swift in Sources */,
+				3F777F8A246B63D100244D4C /* ReactiveExecutable.swift in Sources */,
+				3F1D3D772497BFB90019AD33 /* Executable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

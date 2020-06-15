@@ -9,10 +9,7 @@
 import Foundation
 import RxSwift
 
-open class ObservableUseCase<Input, Output>: Executable, UseCaseProtocol {
-    public typealias InputType = Input
-    public typealias OutputType = Output
-    public typealias ObservableResultType = Observable<Output>
+open class ObservableUseCase<Input, Output>: ReactiveExecutable {
     
     open func createUseCase(input: Input) -> Observable<Output> {
         return .never()
@@ -23,6 +20,7 @@ open class ObservableUseCase<Input, Output>: Executable, UseCaseProtocol {
             .subscribeOn(executionSchedule)
             .observeOn(resultSchedule)
     }
+    
 }
 
 public extension ObservableUseCase where Input == Void {
